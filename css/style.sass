@@ -1,0 +1,72 @@
+*
+    font-family: 'Open Sans', sans-serif
+
+body
+    background: #333333
+    color: #f9f9f9
+    margin: 0
+
+::selection
+  background: #51565C
+
+
+::-moz-selection
+  background: #51565C
+
+
+.header
+    text-align: center
+    &__title
+        font-size: 48px
+        text-align: center
+        margin: 150px 0 10px
+    &__descr
+        font-size: 20px
+        width: 600px
+        max-width: 90%
+        text-align: center
+        margin: 0 auto
+    &__btn
+        text-align: center
+        margin-top: 40px
+    &__link
+        text-decoration: none
+        color: #f9f9f9
+        border: 2px solid #51565C
+        border-radius: 5px
+        padding: 8px 20px 10px
+        transition: .1s
+        &:hover
+            background: #51565C
+    &__img
+        margin-top: 50px
+        width: 600px
+
+.brows
+    &__choose
+        padding-top: 50px
+        display: flex
+        justify-content: center
+    &__img
+        height: 50px
+    &__item
+        margin-right: 20px
+        margin-left: 20px
+        border-radius: 20px
+        width: 200px
+        text-align: center
+        border: 2px solid #51565C
+        padding: 50px 20px
+        transition: .1s
+        &:hover
+            background-color: #51565C
+            cursor: pointer
+    &__img
+        padding-bottom: 10px
+
+.chrome
+    max-width: 768px
+    margin: 0 auto
+    padding-top: 20px
+    &__link
+        color: #f9f9f9
